@@ -1,10 +1,10 @@
-package es.santander.ascender.proyecto09;
+package es.santander.ascender.proyecto12;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Proyecto09ApplicationTests {
+class Proyecto12ApplicationTests {
 
 	@Test
 	void contextLoads() {

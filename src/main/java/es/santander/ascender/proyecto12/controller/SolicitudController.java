@@ -1,4 +1,4 @@
-package es.santander.ascender.proyecto09.controller;
+package es.santander.ascender.proyecto12.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import es.santander.ascender.proyecto09.Solicitud;
+import es.santander.ascender.proyecto12.Solicitud;
 
 @RestController
 @RequestMapping("/rest/solicitud")
