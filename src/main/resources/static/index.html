@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maestro Detalle de Solicitudes</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="/javascript/misPruebas.js"></script>
 </head>
 
 <body>
@@ -14,25 +15,21 @@
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Fecha</th>
                         <th>Estado</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="#">1</a></td>
-                        <td>2024-11-25</td>
+                        <td><a href="#">2024-11-25</a></td>
                         <td>Pendiente</td>
                     </tr>
                     <tr>
-                        <td><a href="#">2</a></td>
-                        <td>2024-11-26</td>
+                        <td><a href="#">2024-11-26</a></td>
                         <td>Aprobada</td>
                     </tr>
                     <tr>
-                        <td><a href="#">3</a></td>
-                        <td>2024-11-27</td>
+                        <td><a href="#">2024-11-27</a></td>
                         <td>Rechazada</td>
                     </tr>
                 </tbody>
@@ -43,8 +40,7 @@
         <h2>Detalle de Solicitud</h2>
             <form action="#">
                 <div>
-                    <label for="solicitudID">ID Solicitud: </label>
-                    <input type="text" name="solicitudID" value="1" readonly>
+                    <input type="hidden" name="solicitudID" value="1" readonly>
                 </div>
                 <div>
                     <label for="fecha">Fecha: </label>
